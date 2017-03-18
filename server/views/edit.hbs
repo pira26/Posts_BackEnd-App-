@@ -1,0 +1,9 @@
+<title>{{title}}</title>
+<div>
+	<form method="post" action="/edit/{{blogPost._id}}">
+		<input type="text" name="name" placeholder="Name" value="{{blogPost.name}}"/>
+		<textarea name="description" placeholder="Description">{{blogPost.description}}</textarea>
+		<input type="submit" value="send" />
+	</form>
+</div>
+<div>{{description}}</div>

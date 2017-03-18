@@ -1,0 +1,12 @@
+<title>{{title}}</title>
+{{# each blogPosts}}
+	<div>
+		<h2>{{this.name}}</h2>
+		<p>{{this.desciption}}</p>
+		<div>
+			<a href="/edit/{{this._id}}">EDIT</a>
+			<a href="/delete/{{this._id}}">DELETE</a>
+		</div>
+	</div>
+	<hr />
+{{/each}}
