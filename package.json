@@ -1,0 +1,20 @@
+{
+  "name": "Back-end",
+  "version": "1.0.0",
+  "description": "First Step with Node Js",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Pira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "hbs": "4.0.1",
+    "mongoose": "4.9.0",
+    "morgan": "1.8.1",
+    "nodemon": "1.11.0"
+  }
+}
