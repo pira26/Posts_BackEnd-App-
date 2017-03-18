@@ -10,7 +10,7 @@ For that i used:
 	- MongoDB
 	- Mongoose
 
-### Installing the project
+### Install the project
 
 First git clone the project...
 
@@ -20,9 +20,9 @@ Install the whole package:
 npm i 
 ```
 
-Then run in your local machine: 
+Then, in your local machine run: 
 ```
 npm start
 ```
 
-Finally open in the browser and go to localhost:8080
+Finally open the browser and go to localhost:8080
